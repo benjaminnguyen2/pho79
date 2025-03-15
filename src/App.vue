@@ -4,23 +4,38 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/phoLogo.jpg" width="125" height="125" />
+  <div class="nav-bar">
+    <img alt="restaurant banner" class="home-banner" src="@/assets/logo/test.png" />
+  </div>
+  <div class="main">
+    <header>
+      <img alt="Vue logo" class="logo" src="@/assets/logo/phoLogo.jpg" width="125" height="125" />
 
-    <div class="wrapper">
-      <HelloWorld msg="Welcome to Pho 79!" />
+      <div class="wrapper">
+        <HelloWorld msg="Welcome to Pho 79!" />
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
+        <nav>
+          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/about">About</RouterLink>
+        </nav>
+      </div>
+    </header>
 
-  <RouterView />
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>
+.nav-bar {
+  background-image: linear-gradient(to right, #38b54a, #bad531);
+}
+.home-banner {
+  height: 100px;
+  z-index: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -56,7 +71,10 @@ nav a:first-of-type {
   border: 0;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1080px) {
+  .nav-bar {
+    width: 100%;
+  }
   header {
     display: flex;
     place-items: center;
