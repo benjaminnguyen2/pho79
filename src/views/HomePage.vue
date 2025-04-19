@@ -12,7 +12,7 @@
         </p>
       </div>
       <div class="pho-bowl">
-        <img src="@/assets/home/phoBowl.png" alt="" style="width: 400px" />
+        <img src="@/assets/home/bowl.png" alt="" style="width: 400px" />
       </div>
       <div style="text-align: center; margin-bottom: 2rem">
         <RouterLink to="/menu" class="active-nav"
