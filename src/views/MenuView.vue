@@ -28,8 +28,11 @@
       </div>
 
       <!-- PHO -->
-      <div class="pho">
-        <h1 class="section-title">PHỞ BÒ - BEEF NOODLE SOUP</h1>
+      <div class="item-name">
+        <div style="width: 80%">
+          <h1 class="section-title">PHỞ BÒ - BEEF NOODLE SOUP</h1>
+        </div>
+        <h1 style="font-weight: 700; width: 20%">M / L</h1>
       </div>
       <div class="food-item">
         <div class="item-name">
@@ -88,7 +91,7 @@
       <div class="food-item">
         <div class="item-name">
           <h2 style="font-weight: 700; width: 80%">B2: Bún Bò Huế</h2>
-          <h2 style="width: 20%; font-weight: 700">$6</h2>
+          <h2 style="width: 20%; font-weight: 700">$16</h2>
         </div>
         <p>Huế beef noodle soup</p>
       </div>
