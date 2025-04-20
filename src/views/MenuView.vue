@@ -3,126 +3,118 @@
     <div class="content-wrapper">
       <!-- APPETIZER -->
       <div class="appetizer">
-        <h1 class="section-title">KHAI VI - APPETIZER</h1>
+        <h1 class="section-title">KHAI VỊ - APPETIZER</h1>
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">K1: Cha Gio Tom Thit</h2>
-          <h2 style="width: 20%">$6.00</h2>
+          <h2 style="font-weight: 700; width: 80%">K1: Chả Giò Tôm Thịt</h2>
+          <h2 style="width: 20%; font-weight: 700">$6</h2>
         </div>
         <p>Fried spring rolls with shrimp and pork</p>
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">K2: Goi Cuon Tom Thit</h2>
-          <h2 style="width: 20%">$6.00</h2>
+          <h2 style="font-weight: 700; width: 80%">K2: Gỏi Cuốn Tôm Thịt</h2>
+          <h2 style="width: 20%; font-weight: 700">$6</h2>
         </div>
         <p>Fresh spring rolls with shrimp and pork</p>
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">K3: Banh Mi Viet Nam</h2>
-          <h2 style="width: 20%">$6.00</h2>
+          <h2 style="font-weight: 700; width: 80%">K3: Bánh Mì Việt Nam</h2>
+          <h2 style="width: 20%; font-weight: 700">$6</h2>
         </div>
         <p>Vietnamese Sandwich</p>
       </div>
 
       <!-- PHO -->
       <div class="pho">
-        <h1 class="section-title">PHO BO - BEEF NOODLE SOUP</h1>
+        <h1 class="section-title">PHỞ BÒ - BEEF NOODLE SOUP</h1>
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">P1: Pho Tai</h2>
-          <h2 style="width: 20%">$13.00/$15.00</h2>
+          <h2 style="font-weight: 700; width: 80%">P1: Phở Tái</h2>
+          <h2 style="width: 20%; font-weight: 700">$13/$15</h2>
         </div>
         <p>Rare beef rice noodle soup</p>
       </div>
-
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">P2: Pho Tai Nam</h2>
-          <h2 style="width: 20%">$13.00/$15.00</h2>
+          <h2 style="font-weight: 700; width: 80%">P2: Phở Tái Nạm</h2>
+          <h2 style="width: 20%; font-weight: 700">$13/$15</h2>
         </div>
         <p>Rare beef & well done flank rice noodle soup</p>
       </div>
-
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">P3: Pho Tai Bo Vien</h2>
-          <h2 style="width: 20%">$13.00/$15.00</h2>
+          <h2 style="font-weight: 700; width: 80%">P3: Phở Tái Bò Viên</h2>
+          <h2 style="width: 20%; font-weight: 700">$13/$15</h2>
         </div>
         <p>Rare beef & beef balls rice noodle soup</p>
       </div>
-
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">P4: Pho Nam Bo Vien</h2>
-          <h2 style="width: 20%">$13.00/$15.00</h2>
+          <h2 style="font-weight: 700; width: 80%">P4: Phở Nạm Bò Viên</h2>
+          <h2 style="width: 20%; font-weight: 700">$13/$15</h2>
         </div>
         <p>Well done flank beef & beef ball rice noodle soup</p>
       </div>
-
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">P5: Pho Nam</h2>
-          <h2 style="width: 20%">$13.00/$15.00</h2>
+          <h2 style="font-weight: 700; width: 80%">P5: Phở Nạm</h2>
+          <h2 style="width: 20%; font-weight: 700">$13/$15</h2>
         </div>
         <p>Well done flank beef rice noodle soup</p>
       </div>
-
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">P6: Pho Dac Biet</h2>
-          <h2 style="width: 20%">$14.00/$16.00</h2>
+          <h2 style="font-weight: 700; width: 80%">P6: Phở Đặc Biệt</h2>
+          <h2 style="width: 20%; font-weight: 700">$14/$16</h2>
         </div>
         <p>House special noodle soup</p>
       </div>
 
       <!-- VERMICELLI -->
       <div class="vermicelli-dishes">
-        <h1 class="section-title">BUN - VERMICELLI DISHES</h1>
+        <h1 class="section-title">BÚN - VERMICELLI DISHES</h1>
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">B1: Bun Cha Gio Thit Nuong</h2>
-          <h2 style="width: 20%">$15.00</h2>
+          <h2 style="font-weight: 700; width: 80%">B1: Bún Chả Giò Thịt Nướng</h2>
+          <h2 style="width: 20%; font-weight: 700">$15</h2>
         </div>
         <p>Vermicelli with grilled pork & shrimp spring roll</p>
       </div>
-
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">B2: Bun Bo Hue</h2>
-          <h2 style="width: 20%">$6.00</h2>
+          <h2 style="font-weight: 700; width: 80%">B2: Bún Bò Huế</h2>
+          <h2 style="width: 20%; font-weight: 700">$6</h2>
         </div>
-        <p>Hue beef noodle soup</p>
+        <p>Huế beef noodle soup</p>
       </div>
 
-      <!-- RICE DISHES!!! -->
+      <!-- RICE DISHES -->
       <div class="rice-dishes">
-        <h1 class="section-title">COM - RICE DISHES</h1>
+        <h1 class="section-title">CƠM - RICE DISHES</h1>
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">C1: Com Tam Suon Nuong</h2>
-          <h2 style="width: 20%">$14.00</h2>
+          <h2 style="font-weight: 700; width: 80%">C1: Cơm Tấm Sườn Nướng</h2>
+          <h2 style="width: 20%; font-weight: 700">$14</h2>
         </div>
         <p>Grilled pork chop with steamed broken rice</p>
       </div>
-
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">C2: Com Tam Suon Nuon & Truong Ga Opla</h2>
-          <h2 style="width: 20%">$15.00</h2>
+          <h2 style="font-weight: 700; width: 80%">C2: Cơm Tấm Sườn Nướng & Trứng Gà Ốpla</h2>
+          <h2 style="width: 20%; font-weight: 700">$15</h2>
         </div>
         <p>Grilled pork chop & fried egg with steamed broken rice</p>
       </div>
-
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">C3: Bun Cha Gio Thit Nuong</h2>
-          <h2 style="width: 20%">$15.00</h2>
+          <h2 style="font-weight: 700; width: 80%">C3: Cơm Gà Nướng</h2>
+          <h2 style="width: 20%; font-weight: 700">$15</h2>
         </div>
         <p>Grilled chicken broken rice</p>
       </div>
@@ -134,23 +126,21 @@
       <div class="food-item">
         <div class="item-name">
           <h2 style="font-weight: 700; width: 80%">Soft drinks</h2>
-          <h2 style="width: 20%">$2.50</h2>
+          <h2 style="width: 20%; font-weight: 700">$2.5</h2>
         </div>
         <p></p>
       </div>
-
       <div class="food-item">
         <div class="item-name">
           <h2 style="font-weight: 700; width: 80%">Water bottle</h2>
-          <h2 style="width: 20%">$1.00</h2>
+          <h2 style="width: 20%; font-weight: 700">$1</h2>
         </div>
         <p></p>
       </div>
-
       <div class="food-item">
         <div class="item-name">
           <h2 style="font-weight: 700; width: 80%">Vietnamese coffee</h2>
-          <h2 style="width: 20%">$4.00</h2>
+          <h2 style="width: 20%; font-weight: 700">$4</h2>
         </div>
         <p></p>
       </div>
