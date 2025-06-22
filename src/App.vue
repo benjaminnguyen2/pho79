@@ -5,10 +5,13 @@ import PhoFooter from './components/Pho79Footer.vue'
 
 <template>
   <div class="layout">
-    <div style="display: inline-block">
-      <RouterLink to="/"
-        ><img alt="restaurant banner" class="home-logo" src="@/assets/logo/pho79WithShadows.png"
-      /></RouterLink>
+    <div class="logo-grand-opening">
+      <div style="display: inline-block">
+        <RouterLink to="/"
+          ><img alt="restaurant banner" class="home-logo" src="@/assets/logo/pho79WithShadows.png"
+        /></RouterLink>
+      </div>
+      <div class="grand-opening-banner">Grand Opening! - Early July, 2025</div>
     </div>
 
     <nav>
@@ -17,6 +20,7 @@ import PhoFooter from './components/Pho79Footer.vue'
       <RouterLink to="/about" class="active-nav">About</RouterLink>
       <!-- <RouterLink to="/gallery" class="active-nav">Gallery</RouterLink> -->
     </nav>
+
     <main class="main-content">
       <RouterView />
     </main>
@@ -26,6 +30,15 @@ import PhoFooter from './components/Pho79Footer.vue'
 </template>
 
 <style scoped>
+.logo-grand-opening {
+  display: flex;
+  flex-direction: row;
+
+  @media only screen and (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .layout {
   display: flex;
   flex-direction: column;
@@ -34,5 +47,14 @@ import PhoFooter from './components/Pho79Footer.vue'
 
 .main-content {
   flex: 1;
+}
+.grand-opening-banner {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: red;
+  @media only screen and (max-width: 1024px) {
+    font-size: 2rem;
+  }
 }
 </style>
