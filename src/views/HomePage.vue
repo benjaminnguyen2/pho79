@@ -29,7 +29,7 @@
 
         <div class="navigation-maps">
           <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.2615002296416!2d-79.70652763358241!3d44.386753458178696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa33761cc8da7%3A0xacf6c4ee782fcfb9!2zUGjhu58gNzk!5e0!3m2!1sen!2sca!4v1755295086956!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.2615002296416!2d-79.70652763358241!3d44.386753458178696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa33761cc8da7%3A0xacf6c4ee782fcfb9!2zUGjhu58gNzk!5e0!3m2!1sen!2sca!4v1755295086956!5m2!1sen!2sca" width="600" height="450" style="border:0;" allow="fullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
