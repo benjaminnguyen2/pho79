@@ -3,7 +3,7 @@
     <div class="content-wrapper">
       <div class="footer-info">
         <p class="footer-text-2 footer-left">© PHO 79 2025 - ALL RIGHTS RESERVED</p>
-        <div class="footer-copyright footer-center">
+        <!-- <div class="footer-copyright footer-center">
           <div class="footer-social footer-center">
             <img
               src="@/assets/logo/instagramLogo.png"
@@ -17,7 +17,7 @@
             />
             <img src="@/assets/logo/yelpLogo.png" alt="yelp" class="footer-social-icon-yelp" />
           </div>
-        </div>
+        </div> -->
         <p class="footer-text-2 footer-right">
           <span class="footer-address-span">Pho 79</span>
           <span>
