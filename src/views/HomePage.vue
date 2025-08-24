@@ -8,7 +8,7 @@
       <div class="business-hours">
         <p style="font-weight: 700; padding-right: 4rem">Business<br />Hours</p>
         <p style="text-align: center">
-          <span> Monday Closed<br />Tuesday - Sunday<br />11Am - 7PM </span>
+          <span> Monday Closed<br />Tuesday - Sunday<br />11AM - 8PM </span>
         </p>
       </div>
       <div class="pho-bowl">
