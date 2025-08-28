@@ -15,11 +15,11 @@
         connected to his Vietnamese roots. His story is one of hard work, family, and the pursuit of
         a brighter future.
       </p>
-      <div class="item">
+      <!-- <div class="item">
         <div class="polaroid">
           <img src="@/assets/about/family.jpg" alt="" />
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

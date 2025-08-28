@@ -11,7 +11,7 @@ import PhoFooter from './components/Pho79Footer.vue'
           ><img alt="restaurant banner" class="home-logo" src="@/assets/logo/pho79WithShadows.png"
         /></RouterLink>
       </div>
-      <div class="grand-opening-banner">Grand Opening! - August 29th, 2025</div>
+      <!-- <div class="grand-opening-banner">Grand Opening! - September 2025</div> -->
     </div>
 
     <nav>
