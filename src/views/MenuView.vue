@@ -162,6 +162,9 @@
   display: inline-block;
   margin-bottom: 1rem;
   font-size: 2rem;
+  @media only screen and (max-width: 660px) {
+    font-size: 1.65rem !important;
+  }
   @media only screen and (max-width: 550px) {
     font-size: 1.4rem !important;
   }
