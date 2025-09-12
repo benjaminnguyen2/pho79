@@ -7,17 +7,17 @@
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">K1: Chả Giò Tôm Thịt</h2>
+          <h2 style="font-weight: 700; width: 80%">K1: Chả Giò</h2>
           <h2 style="width: 20%; font-weight: 700">$7</h2>
         </div>
-        <p>Fried spring rolls with shrimp and pork</p>
+        <p>Fried Spring Rolls with pork</p>
       </div>
       <div class="food-item">
         <div class="item-name">
           <h2 style="font-weight: 700; width: 80%">K2: Gỏi Cuốn Tôm Thịt</h2>
           <h2 style="width: 20%; font-weight: 700">$7</h2>
         </div>
-        <p>Fresh spring rolls with shrimp and pork</p>
+        <p>Fresh Spring Rolls with shrimp and pork</p>
       </div>
       <div class="food-item">
         <div class="item-name">
@@ -93,14 +93,14 @@
           <h2 style="font-weight: 700; width: 80%">B1: Bún Chả Giò Thịt Nướng</h2>
           <h2 style="width: 20%; font-weight: 700">$16</h2>
         </div>
-        <p>Vermicelli with grilled pork & shrimp spring roll</p>
+        <p>Vermicelli with grilled pork & fried Spring Roll</p>
       </div>
       <div class="food-item">
         <div class="item-name">
           <h2 style="font-weight: 700; width: 80%">B2: Bún Bò Huế</h2>
           <h2 style="width: 20%; font-weight: 700">$16</h2>
         </div>
-        <p>Huế beef noodle soup</p>
+        <p>Huế beef Noodle Soup</p>
       </div>
 
       <!-- RICE DISHES -->
@@ -119,7 +119,7 @@
           <h2 style="font-weight: 700; width: 80%">C3: Cơm Gà Nướng & Trứng Gà Ốpla</h2>
           <h2 style="width: 20%; font-weight: 700">$16</h2>
         </div>
-        <p>Grilled chicken broken rice</p>
+        <p>Grilled chicken & fried egg with steamed broken rice</p>
       </div>
 
       <!-- DRINKS -->
@@ -131,21 +131,21 @@
           <h2 style="font-weight: 700; width: 80%">Soft drinks</h2>
           <h2 style="width: 20%; font-weight: 700">$2.5</h2>
         </div>
-        <p></p>
+        <p>
+          Coconut water, Nestea, Sprite, Canada Dry Ginger Ale, Classic Coke, Diet Coke, Coke Zero
+        </p>
       </div>
       <div class="food-item">
         <div class="item-name">
           <h2 style="font-weight: 700; width: 80%">Water bottle</h2>
           <h2 style="width: 20%; font-weight: 700">$1</h2>
         </div>
-        <p></p>
       </div>
       <div class="food-item">
         <div class="item-name">
           <h2 style="font-weight: 700; width: 80%">Vietnamese coffee</h2>
           <h2 style="width: 20%; font-weight: 700">$5</h2>
         </div>
-        <p></p>
       </div>
     </div>
   </div>
