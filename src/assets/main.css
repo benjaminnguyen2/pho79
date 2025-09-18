@@ -32,10 +32,8 @@ a,
   padding: 1rem;
 }
 .content-wrapper {
-  justify-content: center;
-  margin: auto;
+  margin: 1rem auto auto auto;
   max-width: 1024px;
-  padding-top: 1rem;
 }
 
 /* Navigation Bar */
