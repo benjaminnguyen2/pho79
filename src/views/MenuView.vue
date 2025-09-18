@@ -1,6 +1,6 @@
 <template>
   <div class="main-section">
-    <div class="content-wrapper">
+    <div class="content-wrapper menu-wrapper">
       <!-- APPETIZER -->
       <div class="appetizer">
         <h1 class="section-title">KHAI VỊ - APPETIZER</h1>
@@ -29,10 +29,10 @@
 
       <!-- PHO -->
       <div class="item-name">
-        <div style="width: 80%">
+        <div style="width: 80%; min-width: fit-content">
           <h1 class="section-title">PHỞ BÒ - BEEF NOODLE SOUP</h1>
         </div>
-        <h1 style="font-weight: 700; width: 20%">M / L</h1>
+        <h1 class="right-align" style="font-weight: 700; width: 20%">M / L</h1>
       </div>
       <div class="food-item">
         <div class="item-name">
@@ -155,35 +155,46 @@
 .menu-title {
   text-align: center;
 }
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .section-title {
   padding: 0.5rem;
   color: white;
   background-color: #66bc45;
   display: inline-block;
-  margin-bottom: 1rem;
   font-size: 2rem;
-  @media only screen and (max-width: 660px) {
-    font-size: 1.65rem !important;
-  }
-  @media only screen and (max-width: 550px) {
-    font-size: 1.4rem !important;
-  }
-  @media only screen and (max-width: 410px) {
-    font-size: 1.25rem !important;
-  }
 }
 .food-item {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 462px) {
     h2 {
-      font-size: 1.25rem;
+      font-size: 1rem;
     }
   }
 }
 .item-name {
   display: flex;
+  align-items: center;
   flex-direction: row;
+}
+.item-name h2:nth-of-type(2),
+.right-align {
+  text-align: right;
+  white-space: nowrap;
+}
+.section-title, .right-align {
+  @media only screen and (max-width: 660px) {
+    font-size: 1.65rem !important;
+  }
+  @media only screen and (max-width: 550px) {
+    font-size: 1.25rem !important;
+  }
+  @media only screen and (max-width: 462px) {
+    font-size: 1.1rem !important;
+  }
 }
 </style>
