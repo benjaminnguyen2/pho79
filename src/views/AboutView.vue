@@ -1,3 +1,27 @@
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const active = ref(0)
+
+function next () {
+    active.value++;
+    if (active.value > 5) {
+        active.value = 0
+    }
+}
+
+function prev () {
+    active.value--;
+    if (active.value < 0) {
+        active.value = 5
+    }
+}
+
+function currentSlide(input: number) {
+    active.value = input - 1
+}
+</script>
+
 <template>
   <div class="main-section">
     <div class="content-wrapper">
@@ -23,54 +47,52 @@
 
       <!-- Container for the image gallery -->
       <div class="container">
+        <button class="prev" @click="prev">&#10094;</button>
         <!-- Full-width images with number text -->
-        <div class="mySlides">
-          <div class="numbertext">1 / 6</div>
-          <img src="@/assets/about/pho.jpg" style="width: 100%" />
+        <!-- <div class="card" v-for="card in cards" :key="card">
+            {{card}}
+        </div> -->
+        <div :class="active == 0 ? 'mySlides' : 'hideSlide'">
+          <img src="@/assets/about/pho.jpg" class="slideImage" />
         </div>
 
-        <div class="mySlides">
-          <div class="numbertext">2 / 6</div>
-          <img src="@/assets/about/com.jpg" style="width: 100%" />
+        <div :class="active == 1 ? 'mySlides' : 'hideSlide'">
+          <img src="@/assets/about/com.jpg" class="slideImage" />
         </div>
 
-        <div class="mySlides">
-          <div class="numbertext">3 / 6</div>
-          <img src="@/assets/about/bunbohue.jpg" style="width: 100%" />
+        <div :class="active == 2 ? 'mySlides' : 'hideSlide'">
+          <img src="@/assets/about/bunbohue.jpg" class="slideImage" />
         </div>
 
-        <div class="mySlides">
-          <div class="numbertext">4 / 6</div>
-          <img src="@/assets/about/bunchagio.jpg" style="width: 100%" />
+        <div :class="active == 3 ? 'mySlides' : 'hideSlide'">
+          <img src="@/assets/about/bunchagio.jpg" class="slideImage" />
         </div>
 
-        <div class="mySlides">
-          <div class="numbertext">5 / 6</div>
-          <img src="@/assets/about/banhmi.jpg" style="width: 100%" />
+        <div :class="active == 4 ? 'mySlides' : 'hideSlide'">
+          <img src="@/assets/about/banhmi.jpg" class="slideImage" />
         </div>
 
-        <div class="mySlides">
-          <div class="numbertext">6 / 6</div>
-          <img src="@/assets/about/cafe.jpg" style="width: 100%" />
+        <div :class="active == 5 ? 'mySlides' : 'hideSlide'">
+          <img src="@/assets/about/cafe.jpg" class="slideImage" />
         </div>
 
         <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <button class="next" @click="next">&#10095;</button>
 
         <!-- Image text -->
         <div class="caption-container">
-          <p id="caption"></p>
+          <p id="caption" class="numbertext">{{ active+1 }} / 6</p>
         </div>
 
         <!-- Thumbnail images -->
         <div class="row">
+            
           <div class="column">
             <img
               class="demo cursor"
               src="@/assets/about/pho.jpg"
               style="width: 100%"
-              onclick="currentSlide(1)"
+              @click="currentSlide(1)"
               alt="Pho"
             />
           </div>
@@ -79,7 +101,7 @@
               class="demo cursor"
               src="@/assets/about/com.jpg"
               style="width: 100%"
-              onclick="currentSlide(2)"
+              @click="currentSlide(2)"
               alt="Com"
             />
           </div>
@@ -88,7 +110,7 @@
               class="demo cursor"
               src="@/assets/about/bunbohue.jpg"
               style="width: 100%"
-              onclick="currentSlide(3)"
+              @click="currentSlide(3)"
               alt="Bun Bo Hue"
             />
           </div>
@@ -97,7 +119,7 @@
               class="demo cursor"
               src="@/assets/about/bunchagio.jpg"
               style="width: 100%"
-              onclick="currentSlide(4)"
+              @click="currentSlide(4)"
               alt="Bun Cha Gio"
             />
           </div>
@@ -106,7 +128,7 @@
               class="demo cursor"
               src="@/assets/about/banhmi.jpg"
               style="width: 100%"
-              onclick="currentSlide(5)"
+              @click="currentSlide(5)"
               alt="banh mi"
             />
           </div>
@@ -115,10 +137,11 @@
               class="demo cursor"
               src="@/assets/about/cafe.jpg"
               style="width: 100%"
-              onclick="currentSlide(6)"
+              @click="currentSlide(6)"
               alt="coffee"
             />
           </div>
+          
         </div>
       </div>
     </div>
@@ -237,11 +260,21 @@
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+  margin: 2rem auto 2rem auto;
+  width: 50%;
 }
 
 /* Hide the images by default */
 .mySlides {
+  display: inline-block;
+}
+
+.hideSlide {
   display: none;
+}
+
+.slideImage {
+  width: 100%;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -259,11 +292,13 @@
   padding: 16px;
   margin-top: -50px;
   color: white;
+  background-color: rgba(0, 0, 0, 0.3);
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+  border: none;
 }
 
 /* Position the "next button" to the right */
@@ -281,10 +316,7 @@
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+  font-size: 1rem;
 }
 
 /* Container for image text */
@@ -317,3 +349,4 @@
   opacity: 1;
 }
 </style>
+
