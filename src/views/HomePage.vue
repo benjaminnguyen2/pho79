@@ -6,13 +6,40 @@
     </div>
     <div class="content-wrapper">
       <div class="business-hours">
-        <p style="font-weight: 700; padding-right: 4rem">Business<br />Hours</p>
-        <p style="text-align: center">
-          <span> Monday Closed<br />Tuesday - Sunday<br />11AM - 8PM </span>
-        </p>
+        <p style="font-weight: 700">Opening Hours</p>
+        <ul style="list-style: none">
+          <li>
+            <p class="hours-day">Monday</p>
+            <p>Closed</p>
+          </li>
+          <li>
+            <p class="hours-day">Tuesday</p>
+            <p>11AM - 8PM</p>
+          </li>
+          <li>
+            <p class="hours-day">Wednesday</p>
+            <p>11AM - 8PM</p>
+          </li>
+          <li>
+            <p class="hours-day">Thursday</p>
+            <p>11AM - 8PM</p>
+          </li>
+          <li>
+            <p class="hours-day">Friday</p>
+            <p>11AM - 8PM</p>
+          </li>
+          <li>
+            <p class="hours-day">Saturday</p>
+            <p>11AM - 8PM</p>
+          </li>
+          <li>
+            <p class="hours-day">Sunday</p>
+            <p>11AM - 8PM</p>
+          </li>
+        </ul>
       </div>
       <div class="pho-bowl">
-        <img src="@/assets/home/bowl.png" alt="" style="width: 400px" />
+        <img src="@/assets/home/bowl.png" alt="" style="margin-top: 2rem; width: 400px" />
       </div>
       <div style="text-align: center; margin-bottom: 2rem">
         <RouterLink to="/menu" class="active-nav"
@@ -29,7 +56,15 @@
 
         <div class="navigation-maps">
           <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.2615002296416!2d-79.70652763358241!3d44.386753458178696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa33761cc8da7%3A0xacf6c4ee782fcfb9!2zUGjhu58gNzk!5e0!3m2!1sen!2sca!4v1755295086956!5m2!1sen!2sca" width="600" height="450" style="border:0;" allow="fullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.2615002296416!2d-79.70652763358241!3d44.386753458178696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa33761cc8da7%3A0xacf6c4ee782fcfb9!2zUGjhu58gNzk!5e0!3m2!1sen!2sca!4v1755295086956!5m2!1sen!2sca"
+              width="600"
+              height="450"
+              style="border: 0"
+              allow="fullscreen"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
@@ -42,7 +77,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-size: 2rem;
   z-index: 1;
   @media only screen and (max-width: 1024px) {
@@ -61,11 +96,11 @@
 }
 .navigation-header {
   margin-right: 2rem;
+  align-content: center;
 }
 .navigation-title {
   font-size: 2rem;
   font-weight: 700;
-  padding-bottom: 1rem;
 
   @media only screen and (max-width: 1024px) {
     width: 100%;
@@ -78,9 +113,13 @@
   @media only screen and (max-width: 1024px) {
     font-size: 1rem;
   }
+  @media only screen and (max-width: 1024px) {
+    text-align: center;
+  }
 }
 
 .navigation-maps {
+  margin-top: 1rem;
   text-align: right;
   width: 60%;
   @media only screen and (max-width: 1024px) {
@@ -136,5 +175,15 @@
   @media only screen and (max-width: 1024px) {
     display: none;
   }
+}
+ul {
+  padding: 0;
+}
+li {
+  display: flex;
+  flex-direction: row;
+}
+.hours-day {
+  width: 15rem;
 }
 </style>
