@@ -1,12 +1,30 @@
+
+<!-- import heroSrc from '@/assets/hero/pho79-hero.jpg' -->
+
 <template>
-  <div class="main-section">
-    <div class="pho-bowl">
+  <section class="hero-banner" aria-label="Pho 79 featured banner">
+      <img class="hero-banner-img" src="@/assets/hero/pho79-hero.jpg" alt="Pho 79 featured dish" decoding="async" />
+      <div class="hero-banner-overlay">
+        <h1 class="banner-title">Authentic Vietnamese Cuisine</h1>
+        <RouterLink to="/menu" class="banner-cta">View Menu</RouterLink>
+      </div>
+    </section>
+  <section class="main-section">
+    <!-- <div class="pho-bowl">
       <img src="@/assets/home/flower.png" alt="" class="flower" />
       <img src="@/assets/home/flower.png" alt="" class="flipped-flower" />
-    </div>
+    </div> -->
     <div class="content-wrapper">
-      <div class="business-hours">
-        <p style="font-weight: 700">Opening Hours</p>
+
+
+      <!-- <div style="text-align: center; margin-bottom: 2rem">
+        <RouterLink to="/menu" class="active-nav"
+          ><button class="button-pho">Check out our Menu</button></RouterLink
+        >
+      </div> -->
+      <div class="hours-navigation">
+        <div class="business-hours">
+        <p style="font-weight: 700; font-size: 1.5rem;">Opening Hours</p>
         <ul style="list-style: none">
           <li>
             <p class="hours-day">Monday</p>
@@ -38,14 +56,6 @@
           </li>
         </ul>
       </div>
-      <div class="pho-bowl">
-        <img src="@/assets/home/bowl.png" alt="" style="margin-top: 2rem; width: 400px" />
-      </div>
-      <div style="text-align: center; margin-bottom: 2rem">
-        <RouterLink to="/menu" class="active-nav"
-          ><button class="button-pho">Check out our Menu</button></RouterLink
-        >
-      </div>
       <div class="navigation">
         <div class="navigation-header">
           <p class="navigation-title">Come visit us in Barrie!</p>
@@ -68,8 +78,10 @@
           </div>
         </div>
       </div>
+      </div>
+
     </div>
-  </div>
+  </section>
 </template>
 
 <style>
@@ -78,30 +90,19 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  font-size: 2rem;
   z-index: 1;
-  @media only screen and (max-width: 1024px) {
-    font-size: 1.5rem;
-  }
-  @media only screen and (max-width: 550px) {
-    font-size: 1rem;
-  }
 }
 .navigation {
   display: flex;
-  flex-direction: row;
-  @media only screen and (max-width: 1024px) {
-    flex-direction: column;
-  }
+  flex-direction: column;
 }
 .navigation-header {
-  margin-right: 2rem;
   align-content: center;
 }
 .navigation-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
-
+  text-align: center;
   @media only screen and (max-width: 1024px) {
     width: 100%;
     font-size: 1.5rem;
@@ -109,19 +110,16 @@
   }
 }
 .navigation-description {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  text-align: center;
   @media only screen and (max-width: 1024px) {
     font-size: 1rem;
-  }
-  @media only screen and (max-width: 1024px) {
-    text-align: center;
   }
 }
 
 .navigation-maps {
   margin-top: 1rem;
-  text-align: right;
-  width: 60%;
+  width: 100%;
   @media only screen and (max-width: 1024px) {
     width: 100%;
     text-align: center;
@@ -184,6 +182,79 @@ li {
   flex-direction: row;
 }
 .hours-day {
-  width: 15rem;
+  width: 12rem;
+  font-size: 1rem;
 }
+.hours-navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+/* ===== Normal homepage hero banner (below nav) ===== */
+.hero-banner {
+  position: relative;
+  top: 1rem;
+  width: 100%;
+  height: clamp(240px, 40vh, 520px);
+  overflow: clip;
+  background: #000;
+  isolation: isolate;
+  margin: 0; /* flush to nav */
+  opacity: 0;                 /* fade in */
+  animation: bannerFade .6s ease .15s forwards;
+}
+.hero-banner-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;    /* adjust focal point if needed */
+  display: block;
+}
+.hero-banner::after {         /* gradient for legibility */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,.15), rgba(0,0,0,.45));
+  z-index: 0;
+}
+.hero-banner-overlay {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 16px;
+  color: #fff;
+}
+.banner-title {
+  font-size: clamp(1.5rem, 3.2vw, 2.5rem);
+  margin: 0 0 10px 0;
+  line-height: 1.2;
+  text-shadow: 0 2px 10px rgba(0,0,0,.4);
+}
+.banner-cta {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.7);
+  background: rgba(255,255,255,.08);
+  backdrop-filter: blur(6px);
+  font-weight: 600;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.banner-cta:hover {
+  background: rgba(255,255,255,.16);
+
+}
+
+@keyframes bannerFade { to { opacity: 1; } }
 </style>

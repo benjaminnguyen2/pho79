@@ -52,7 +52,7 @@ nav {
   text-align: center;
 }
 .active-nav {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #333333;
   @media only screen and (max-width: 1024px) {
