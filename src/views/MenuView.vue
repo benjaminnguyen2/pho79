@@ -7,14 +7,14 @@
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">K1: Chả Giò</h2>
+          <h2 style="font-weight: 700; width: 80%">K1: Gỏi Cuốn Tôm Thịt</h2>
           <h2 style="width: 20%; font-weight: 700">$7</h2>
         </div>
         <p>Fried Spring Rolls with pork</p>
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">K2: Gỏi Cuốn Tôm Thịt</h2>
+          <h2 style="font-weight: 700; width: 80%">K2: Gỏi Cuốn</h2>
           <h2 style="width: 20%; font-weight: 700">$7</h2>
         </div>
         <p>Fresh Spring Rolls with shrimp and pork</p>
@@ -24,11 +24,18 @@
           <h2 style="font-weight: 700; width: 80%">K3: Bánh Mì Việt Nam</h2>
           <h2 style="width: 20%; font-weight: 700">$7</h2>
         </div>
-        <p>Vietnamese Sandwich</p>
+        <p>Assorted cold cut Vietname Sandwich</p>
+      </div>
+      <div class="food-item">
+        <div class="item-name">
+          <h2 style="font-weight: 700; width: 80%">K4: Bánh Mì Thịt Nướng</h2>
+          <h2 style="width: 20%; font-weight: 700">$7</h2>
+        </div>
+        <p>Grilled Pork Vietname Sandwich</p>
       </div>
 
       <!-- PHO -->
-      <div class="item-name">
+      <div class="item-name" style="margin-top: 1rem">
         <div style="width: 80%; min-width: fit-content">
           <h1 class="section-title">PHỞ BÒ - BEEF NOODLE SOUP</h1>
         </div>
@@ -84,28 +91,49 @@
         <p>House special noodle soup</p>
       </div>
 
+      <!-- PHỞ GÀ -->
+      <div class="item-name" style="margin-top: 1rem">
+        <div style="width: 80%; min-width: fit-content">
+          <h1 class="section-title">PHỞ GÀ - CHICKEN NOODLE SOUP</h1>
+        </div>
+      </div>
+      <div class="food-item">
+        <div class="item-name">
+          <h2 style="font-weight: 700; width: 80%">Phở Gà</h2>
+          <h2 style="width: 20%; font-weight: 700">$16</h2>
+        </div>
+        <p>Chicken rice noodle soup</p>
+      </div>
+
       <!-- VERMICELLI -->
-      <div class="vermicelli-dishes">
+      <div class="vermicelli-dishes" style="margin-top: 1rem">
         <h1 class="section-title">BÚN - VERMICELLI DISHES</h1>
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">B1: Bún Chả Giò Thịt Nướng</h2>
-          <h2 style="width: 20%; font-weight: 700">$16</h2>
-        </div>
-        <p>Vermicelli with grilled pork & fried Spring Roll</p>
-      </div>
-      <div class="food-item">
-        <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">B2: Bún Bò Huế</h2>
+          <h2 style="font-weight: 700; width: 80%">B1: Bún Bò Huế</h2>
           <h2 style="width: 20%; font-weight: 700">$16</h2>
         </div>
         <p>Huế beef Noodle Soup</p>
       </div>
+      <div class="food-item">
+        <div class="item-name">
+          <h2 style="font-weight: 700; width: 80%">B2: Bún Chả Giò Thịt Nướng</h2>
+          <h2 style="width: 20%; font-weight: 700">$16</h2>
+        </div>
+        <p>Vermicelli with grilled pork & fried Spring Roll</p>
+      </div>
 
       <!-- RICE DISHES -->
-      <div class="rice-dishes">
+      <div class="rice-dishes" style="margin-top: 1rem">
         <h1 class="section-title">CƠM - RICE DISHES</h1>
+      </div>
+      <div class="food-item">
+        <div class="item-name">
+          <h2 style="font-weight: 700; width: 80%">C1: Cơm Gà Nướng & Trứng Gà Ốpla</h2>
+          <h2 style="width: 20%; font-weight: 700">$16</h2>
+        </div>
+        <p>Grilled chicken & fried egg with steamed broken rice</p>
       </div>
       <div class="food-item">
         <div class="item-name">
@@ -114,17 +142,23 @@
         </div>
         <p>Grilled pork chop & fried egg with steamed broken rice</p>
       </div>
-      <div class="food-item">
-        <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">C3: Cơm Gà Nướng & Trứng Gà Ốpla</h2>
-          <h2 style="width: 20%; font-weight: 700">$16</h2>
-        </div>
-        <p>Grilled chicken & fried egg with steamed broken rice</p>
-      </div>
 
       <!-- DRINKS -->
-      <div class="drinks">
+
+      <div class="drinks" style="margin-top: 1rem">
         <h1 class="section-title">DRINKS</h1>
+      </div>
+      <div class="food-item">
+        <div class="item-name">
+          <h2 style="font-weight: 700; width: 80%">Vietnamese coffee</h2>
+          <h2 style="width: 20%; font-weight: 700">$5</h2>
+        </div>
+      </div>
+      <div class="food-item">
+        <div class="item-name">
+          <h2 style="font-weight: 700; width: 80%">Coconut Water</h2>
+          <h2 style="width: 20%; font-weight: 700">$3</h2>
+        </div>
       </div>
       <div class="food-item">
         <div class="item-name">
@@ -139,12 +173,6 @@
         <div class="item-name">
           <h2 style="font-weight: 700; width: 80%">Water bottle</h2>
           <h2 style="width: 20%; font-weight: 700">$1</h2>
-        </div>
-      </div>
-      <div class="food-item">
-        <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">Vietnamese coffee</h2>
-          <h2 style="width: 20%; font-weight: 700">$5</h2>
         </div>
       </div>
     </div>
@@ -186,7 +214,8 @@
   text-align: right;
   white-space: nowrap;
 }
-.section-title, .right-align {
+.section-title,
+.right-align {
   @media only screen and (max-width: 660px) {
     font-size: 1.65rem !important;
   }
