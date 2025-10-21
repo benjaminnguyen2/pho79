@@ -66,13 +66,19 @@ nav {
   }
 }
 .home-logo {
-  margin: 0rem 1.5rem 1.5rem 1.5rem;
+  margin: 0rem 1.5rem 0rem 1.5rem;
   height: 80px;
   z-index: 1;
   display: inline-block;
 
-  @media (max-width: 423px) {
+  @media (max-width: 580px) {
     height: 60px;
+  }
+  @media (max-width: 440px) {
+    height: 50px;
+  }
+  @media (max-width: 400px) {
+    height: 45px;
   }
 }
 header {
