@@ -10,14 +10,14 @@
           <h2 style="font-weight: 700; width: 80%">K1: Gỏi Cuốn Tôm Thịt</h2>
           <h2 style="width: 20%; font-weight: 700">$7</h2>
         </div>
-        <p>Fried Spring Rolls with pork</p>
+        <p>Fresh Spring Rolls with shrimp and pork</p>
       </div>
       <div class="food-item">
         <div class="item-name">
-          <h2 style="font-weight: 700; width: 80%">K2: Gỏi Cuốn</h2>
+          <h2 style="font-weight: 700; width: 80%">K2: Chả Giò</h2>
           <h2 style="width: 20%; font-weight: 700">$7</h2>
         </div>
-        <p>Fresh Spring Rolls with shrimp and pork</p>
+        <p>Fried Spring Rolls with pork</p>
       </div>
       <div class="food-item">
         <div class="item-name">
